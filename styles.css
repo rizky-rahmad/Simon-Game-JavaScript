@@ -1,0 +1,59 @@
+/* Basic styling for the body */
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+/* Styling for the game title and level display */
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+/* Container to center the game buttons and control their width */
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/* Base styles for all game buttons */
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+/* Class to be added to the body when the game is over */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* Specific background colors for each button */
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/* Styling for the button when it's clicked or pressed by the game sequence */
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
